@@ -1,0 +1,1 @@
+max(0,X)=X;max(s(X),s(Y))=s(max(Y,X));max(Y,X)=max(0,Y)

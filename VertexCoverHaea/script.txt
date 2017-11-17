@@ -1,0 +1,5 @@
+cd dist
+for /L %%i in (1,1,50) do ( 
+java -cp lib/math.jar;lib/optimization.jar;lib/types.jar;lib/unalcol.jar;lib/evolution.jar;VertexCoverHaea.jar vcHaea.VertexCoverHaea %%i 100 >>experimento%%i.txt
+)
+cd ..

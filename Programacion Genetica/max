@@ -1,0 +1,3 @@
+max(A,0)=true;
+max(s(A),s(B))=max(A,B);
+max(0,B)=false;
